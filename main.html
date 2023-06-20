@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Solar System Map</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <h1>Solar System Map</h1>
+  <img src="solar-system.jpg" alt="Solar System Map" usemap="#solar-system-map" style="width: 800px; height: auto;">
 
+  <map name="solar-system-map">
+    <area shape="circle" coords="100,100,50" href="mercury.html" alt="Mercury">
+    <area shape="circle" coords="200,200,50" href="venus.html" alt="Venus">
+    <area shape="circle" coords="300,300,50" href="earth.html" alt="Earth">
+    <!-- Add more <area> tags for the remaining planets -->
+    <area shape="circle" coords="400,400,50" href="mars.html" alt="Mars">
+    <area shape="circle" coords="500,500,50" href="jupiter.html" alt="Jupiter">
+    <area shape="circle" coords="600,600,50" href="saturn.html" alt="Saturn">
+    <area shape="circle" coords="700,700,50" href="uranus.html" alt="Uranus">
+    <area shape="circle" coords="800,800,50" href="neptune.html" alt="Neptune">
+    <area shape="circle" coords="900,900,50" href="pluto.html" alt="Pluto">
+    <area shape="rect" coords="950,50,1050,150" href="sun.html" alt="Sun">
+  </map>
 </body>
-
 </html>
